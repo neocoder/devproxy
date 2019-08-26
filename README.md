@@ -10,7 +10,7 @@ Config file ( config.js ) is pretty staightforward. It's a node module which exp
 #### Config prams
 
 `port` - (optional. default: 8888) - Local proxy server port
-`target` - (required) - Target webpage url, for example http://latgipo20int.schneider-electric.com
+`target` - (required) - Target webpage url, for example https://www.wikipedia.org/
 `rules` - (optional, kind of...) - Array or file-replacement rules object
 `ruleObject.original` - (required) = RegExp or string which will be converted to regexp
 `ruleObject.local` - (required) = Replacement file path. Can include match groups from regex ( i.e. \$1 )
@@ -26,6 +26,5 @@ $ npm install
 $ npm run start
 ```
 
-Now http://localhost:8888/shop/us/en/tools/replacement-battery-selector
-will proxy the http://latgipo20int.schneider-electric.com/shop/us/en/tools/replacement-battery-selector
-with the file replacement rules applied.
+Now http://localhost:8888/wiki/Proxy
+will proxy the https://en.wikipedia.org/wiki/Proxy with the file replacement rules applied.
