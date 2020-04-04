@@ -21,7 +21,7 @@
         "http-proxy": "^1.17.0",
         "lodash": "^4.17.15",
         "mime-types": "^2.1.21",
-        "minimist": "^1.2.0",
+        "minimist": "^1.2.3",
         "request": "^2.88.0",
         "split2": "^3.0.0",
         "through2": "^3.0.0",
